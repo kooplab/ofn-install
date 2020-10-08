@@ -19,4 +19,4 @@ cd "/home/{{ deployment_user }}/ofn-install"
 git pull
 
 # Deploy
-ansible-playbook playbooks/deploy.yml --limit {{ ansible_limit }} --connection local -e "git_repo=https://github.com/openfoodfoundation/openfoodnetwork.git git_version=$branch"
+ansible-playbook playbooks/deploy.yml --limit {{ ansible_limit }} --connection local -e "git_repo=https://github.com/kooplab/openfoodnetwork.git git_version=$branch"

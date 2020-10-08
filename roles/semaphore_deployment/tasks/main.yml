@@ -35,7 +35,7 @@
 
 - name: fetch ofn-install repo
   git:
-    repo: https://github.com/openfoodfoundation/ofn-install.git
+    repo: https://github.com/kooplab/ofn-install.git
     dest: "/home/{{ deployment_user }}/ofn-install"
     version: master
     force: yes
