@@ -1,3 +1,13 @@
+#-----------------------------------------------------------------------------
+# New for POLAND
+[pl-prod]
+openfoodnetwork.org.pl
+[pl-staging]
+staging.openfoodnetwork.org.pl
+[pl:children]
+pl-prod
+pl-staging
+
 #------------------------------------------------------------------------------
 # Local containers for testing
 
@@ -205,3 +215,4 @@ de
 be
 za
 br
+pl
